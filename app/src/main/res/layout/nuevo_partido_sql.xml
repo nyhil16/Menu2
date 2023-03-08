@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paddle_osc"
+    tools:context=".nuevoPartido">
+
+    <EditText
+        android:id="@+id/txtJugador1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/jugador1"
+        android:inputType="textPersonName"
+        android:textColorHint="#323232"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHorario" />
+
+    <EditText
+        android:id="@+id/txtJugador2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/jugador2"
+        android:inputType="textPersonName"
+        android:textColorHint="#323232"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtJugador1" />
+
+    <EditText
+        android:id="@+id/txtHorario"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/horario"
+        android:inputType="time"
+        android:textColorHint="#323232"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDireccion" />
+
+    <EditText
+        android:id="@+id/txtDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/direccion"
+        android:inputType="textPersonName"
+        android:textColorHint="#323232"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTelefono" />
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="@string/telefono"
+        android:inputType="phone"
+        android:textColorHint="#323232"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombrePartido" />
+
+    <EditText
+        android:id="@+id/txtNombrePartido"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/nombrePartido"
+        android:inputType="textPersonName"
+        android:textColorHint="#323232"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="285dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="63dp"
+        android:text="@string/guardar"
+        app:backgroundTint="#CB22D1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtJugador2" />
+
+    <Button
+        android:id="@+id/btnVolverN"
+        android:layout_width="285dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="63dp"
+        android:text="@string/volver"
+        app:backgroundTint="#CB22D1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGuardar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

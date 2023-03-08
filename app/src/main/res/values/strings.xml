@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Menu2</string>
+    <string name="nuevoPartido">Nuevo Partido</string>
+    <string name="nombrePartido">Nombre del partido</string>
+    <string name="telefono">Telefono</string>
+    <string name="direccion">Direccion</string>
+    <string name="horario">Horario</string>
+    <string name="jugador1">Jugador 1</string>
+    <string name="jugador2">Jugador 2</string>
+    <string name="guardar">Guardar partido</string>
+    <string name="borrarPartido">Borrar Partido</string>
+    <string name="volver">Volver</string>
+</resources>

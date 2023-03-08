@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paddle_osc"
+    tools:context=".borrarPartido">
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="@string/nombrePartido"
+        android:inputType="textPersonName"
+        android:textColorHint="#323232"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="285dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="63dp"
+        android:text="@string/borrarPartido"
+        app:backgroundTint="#CB22D1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
+
+    <Button
+        android:id="@+id/btnVolverB"
+        android:layout_width="285dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="63dp"
+        android:text="@string/volver"
+        app:backgroundTint="#CB22D1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBorrar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
